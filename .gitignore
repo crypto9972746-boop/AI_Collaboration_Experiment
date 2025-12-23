@@ -1,0 +1,50 @@
+# API Keys and Secrets
+.env
+*_secret.json
+config/api_keys.json
+*.key
+
+# Generated Markdown files (JSON only)
+logs/**/*.md
+*.md
+!README.md
+!docs/**/*.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+
+# Node modules (if any)
+node_modules/
+
+# Scripts (keep only in local)
+scripts/
+
+# Config (keep only in local, except settings template)
+config/
+!config/settings.json
